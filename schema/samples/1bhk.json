@@ -1,0 +1,26 @@
+{
+  "name": "1BHK Basic",
+  "wall_thickness": 0.15,
+  "floors": [
+    {
+      "level": 0,
+      "height": 3.0,
+      "rooms": [
+        { "id": "living",  "name": "Living Room", "x": 0.0, "y": 0.0, "width": 4.0, "length": 4.0 },
+        { "id": "bed",     "name": "Bedroom",     "x": 4.0, "y": 0.0, "width": 3.0, "length": 4.0 },
+        { "id": "kitchen", "name": "Kitchen",     "x": 0.0, "y": 4.0, "width": 4.0, "length": 2.5 },
+        { "id": "bath",    "name": "Bathroom",    "x": 4.0, "y": 4.0, "width": 3.0, "length": 2.5 }
+      ],
+      "openings": [
+        { "type": "door",   "room_id": "living",  "side": "south", "offset": 1.5, "width": 1.0, "height": 2.1 },
+        { "type": "window", "room_id": "living",  "side": "west",  "offset": 1.5, "width": 1.2, "height": 1.2, "sill": 0.9 },
+        { "type": "door",   "room_id": "living",  "side": "east",  "offset": 1.5, "width": 0.9, "height": 2.1 },
+        { "type": "door",   "room_id": "living",  "side": "north", "offset": 1.5, "width": 0.9, "height": 2.1 },
+        { "type": "window", "room_id": "bed",     "side": "east",  "offset": 1.4, "width": 1.2, "height": 1.2, "sill": 0.9 },
+        { "type": "window", "room_id": "kitchen", "side": "west",  "offset": 0.8, "width": 1.0, "height": 1.0, "sill": 1.0 },
+        { "type": "door",   "room_id": "kitchen", "side": "east",  "offset": 0.8, "width": 0.8, "height": 2.1 },
+        { "type": "window", "room_id": "bath",    "side": "north", "offset": 1.0, "width": 0.6, "height": 0.6, "sill": 1.5 }
+      ]
+    }
+  ]
+}
